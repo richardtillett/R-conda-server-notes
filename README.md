@@ -94,7 +94,7 @@ conda install -c bioconda bioconductor-deseq2=1.34.0
 
 If it is popular on bioconductor, odds are it has a bioconda bioconductor recipe
 
-### Misc Advice
+## Misc Advice
 
 Above I hinted at advice not to install using normal methods. The re are a couple of related reasons
 1) any tool you install inside of R, conda will have no idea about and could break the dependencies of that tool the next time you install something the conda way.
