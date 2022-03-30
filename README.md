@@ -75,16 +75,21 @@ google for the phrase *tidyverse conda-forge*
 conda install -c conda-forge r-tidyverse=1.3.1
 ```
 
-# dont do this
+For bioconductor packages we follow the same idea. We google for `conda bioconductor PKGNAME` and find the proper conda way to install it.
 
+dont do this
+vvvvv
+
+```
 R
-
 BiocManager::install("DESeq2")
+```
 
 do this
 
+
 ```
-conda install -c bioconda bioconductor-deseq2
+conda install -c bioconda bioconductor-deseq2=1.34.0
 ```
 
 If it is popular on bioconductor, odds are it has a bioconda bioconductor recipe
